@@ -1,0 +1,15 @@
+body{
+	font-family: 'Open sans';
+}
+h1{
+	text-align: center;
+}
+.form-control{
+	margin:auto;
+	display: inline;
+	/*text-align: center;*/
+}
+table{
+	border-spacing: .5em;
+	border-collapse: separate;
+}

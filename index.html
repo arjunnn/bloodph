@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<title>Blood pH Analyser</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- <link rel="shortcut icon" href="favicons/favicon.ico"> -->
+    <meta http-equiv="content-type" content="text/html charset=utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="arjun, munji, kmit, kmitra, kmit.in, hyderabad">
+	<meta name="author" content="Arjun Munji, Shri Ram Pydimarri">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6">
+			<h1 class="page-header"><strong>Blood pH Analyser</strong></h1>
+		</div>
+		<div class="col-sm-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<div class="form-group">
+  				<!-- <label for="pH">&#8594;</label> -->
+			<input type="text" class="form-control" id="pH" placeholder="pH">
+			</div>
+			<div class="form-group">
+  				<!-- <label for="paCO2">&#8594;</label> -->
+				<input type="text" class="form-control" id="PaCO2" placeholder="PaCO2">
+			</div>
+			<div class="form-group">
+  				<!-- <label for="HCO3">&#8594;</label> -->
+				<input type="text" class="form-control" id="HCO3" placeholder="HCO3">
+			</div>
+			<button type="button" class="btn btn-primary btn-block" onclick="preliminaryCheck()">Submit</button>
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<h4 id="message"></h4>
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+</div>
+</body>
+</html>
