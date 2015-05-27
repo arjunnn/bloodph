@@ -50,9 +50,9 @@ if (pH > 7.45 && PaCO2 > 45) {
 	 printOutput("Primary metabolic alkalosis");
 	winterGreen_28_4(HCO3, PaCO2);
 }
-else {
-	 printOutput("No logical acid base abnormality found");
-}
+// else {
+// 	 printOutput("No logical acid base abnormality found");
+// }
 
 }
 
