@@ -20,3 +20,9 @@ table{
 	margin-right: auto;
 	
 }
+#github-logo
+	{
+		max-height: 16px;
+		max-width: 16px;
+		vertical-align: baseline; 
+	}
