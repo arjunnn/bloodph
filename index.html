@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<script type="text/javascript" src="assets/script.js"></script>
+	<script src="assets/script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -42,7 +42,10 @@
   				<!-- <label for="HCO3">&#8594;</label> -->
 				<input type="number" class="form-control" id="HCO3" placeholder="HCO3">
 			</div>
-			<button type="button" class="btn btn-primary btn-block" onclick="preliminaryCheck()">Submit</button>
+			<button type="button" class="btn btn-primary btn-block" id="submitButton">Submit</button>
+
+			<!--<script type="text/javascript">document.getElementById("submitButton").onclick = function() {preliminaryCheck();};</script>-->
+		<script type="text/javascript">document.getElementById("submitButton").addEventListener("click", preliminaryCheck);</script>
 		</div>
 		<div class="col-sm-4"></div>
 	</div>
