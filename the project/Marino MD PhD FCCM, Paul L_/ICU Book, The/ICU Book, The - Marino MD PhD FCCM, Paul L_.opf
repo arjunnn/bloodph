@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">43</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">19d3c29e-c1f8-4d97-ba65-697bd6d0c079</dc:identifier>
+        <dc:title>The ICU Book</dc:title>
+        <dc:creator opf:file-as="Marino MD PhD FCCM, Paul L." opf:role="aut">Marino MD PhD FCCM, Paul L.</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.8.39) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2012-01-12T08:00:00+00:00</dc:date>
+        <dc:publisher>Lippincot (Wolters Kluwer Health)</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;Marino MD PhD FCCM, Paul L.&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2012-03-08T18:50:26+00:00" name="calibre:timestamp"/>
+        <meta content="ICU Book, The" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="ICU Book, The - Marino MD PhD FCCM, Paul L_.jpg" type="cover" title="Cover"/>
+    </guide>
+</package>
